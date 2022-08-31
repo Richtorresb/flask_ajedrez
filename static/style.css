@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h2{
+    text-align: center;
+    margin: 20px;
+
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.color1{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+.color2{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+}
+.color3{
+    background-color: peachpuff;
+    height: 50px;
+    width: 50px;
+}
+.color4{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+}
+.color5{
+
+    height: 50px;
+    width: 50px;
+}
+.color6{
+
+    height: 50px;
+    width: 50px;
+}

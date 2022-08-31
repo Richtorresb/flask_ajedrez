@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajedrez</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>***Checkerboard***</h2>
+    {% for i in range(0,numero): %}
+    <section>
+        {% for x in range(0,numero2) %}
+        <p class="color3"></p>
+        <p class="color4"></p>
+        {%endfor%}
+    </section>
+    <section>
+        {% for x in range(0,numero2) %}
+        <p class="color4"></p>
+        <p class="color3"></p>
+        {%endfor%}
+    </section>
+    {%endfor%}
+</body>
+</html>
